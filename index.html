@@ -1026,7 +1026,7 @@ function scoreCRT(btn){
   const rows=[];
   CRT.forEach((q,i)=>{
     const raw = body.querySelector(`input[name="crt-${i}"]`).value.trim().toLowerCase();
-    if(!raw){rows.push([i+1,'(skipped)',' - ']);return}
+    if(!raw){rows.push([i+1,'(skipped)','—']);return}
     answered++;
     const v = q.text?raw:parseFloat(raw);
     const c = q.text?q.correct:q.correct;
