@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Esketamine's FDA Approval in 2019 Changed How We Think About Treatment-Resistant Depression",
+    "slug": "esketamine-fda-approval-2019-depression",
+    "meta_description": "The 2019 FDA approval of esketamine (Spravato) reshaped depression treatment. Here's what it meant for neurobiology and clinical psychiatry.",
+    "date": "August 16, 2019",
+    "date_iso": "2019-08-16",
+    "author": "Dr. Maya Holloway",
+    "image": "https://images.pexels.com/photos/5723880/pexels-photo-5723880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nejm.org",
+      "nimh.nih.gov",
+      "science.org",
+      "fda.gov",
+      "psychiatrist.com"
+    ],
+    "posted_iso": "2026-05-28",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The FDA Cleared a Psychedelic Therapy Device in 2023 and the Field Still Hasn't Caught Up",
+    "slug": "fda-psilocybin-breakthrough-therapy-2023",
+    "meta_description": "The FDA's 2023 Breakthrough Therapy designation for psilocybin changed neurobiology research forever. Here's what it really meant for the field.",
+    "date": "July 31, 2023",
+    "date_iso": "2023-07-31",
+    "author": "Dr. Maya Holloway",
+    "image": "https://images.pexels.com/photos/8326312/pexels-photo-8326312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nejm.org",
+      "nature.com",
+      "who.int",
+      "clinicaltrials.gov"
+    ],
+    "posted_iso": "2026-05-28",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "GPT-3 and the Brain: What the 2020 AI Language Explosion Actually Meant for Psychology",
+    "slug": "gpt3-2020-psychology-neuroscience-impact",
+    "meta_description": "GPT-3 launched in 2020 and rattled psychologists and neuroscientists. Here's what it actually meant for the field - and what people got badly wrong.",
+    "date": "August 08, 2020",
+    "date_iso": "2020-08-08",
+    "author": "Dr. Maya Holloway",
+    "image": "https://images.pexels.com/photos/30895543/pexels-photo-30895543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "arxiv.org",
+      "who.int",
+      "ncbi.nlm.nih.gov",
+      "fda.gov"
+    ],
+    "posted_iso": "2026-05-28",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
+  }
+]
