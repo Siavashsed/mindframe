@@ -56,5 +56,43 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Dopamine Doesn't Reward You. It Drives You. Here's Why That Matters.",
+    "slug": "dopamine-goal-directed-behavior-neuroscience",
+    "meta_description": "Dopamine shapes goal-directed behavior by driving anticipation, not just pleasure. Learn what the neuroscience actually says and how to use it.",
+    "date": "May 29, 2026",
+    "date_iso": "2026-05-29",
+    "author": "Dr. Maya Holloway",
+    "image": "https://images.pexels.com/photos/28447919/pexels-photo-28447919.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "science.org",
+      "sciencedirect.com",
+      "nih.gov",
+      "annualreviews.org"
+    ],
+    "posted_iso": "2026-05-29",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The Pandemic Brain: How 2020's Mental Health Crisis Forced Psychology to Reckon With Itself",
+    "slug": "2020-pandemic-mental-health-psychology",
+    "meta_description": "The 2020 mental health crisis wasn't just a surge in cases. It exposed deep structural failures in how psychology understood and treated collective trauma.",
+    "date": "March 25, 2020",
+    "date_iso": "2020-03-25",
+    "author": "Dr. Maya Holloway",
+    "image": "https://images.pexels.com/photos/8407043/pexels-photo-8407043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "cdc.gov",
+      "ncbi.nlm.nih.gov",
+      "samhsa.gov"
+    ],
+    "posted_iso": "2026-05-29",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
