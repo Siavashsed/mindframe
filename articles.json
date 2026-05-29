@@ -17,7 +17,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Sleep"
   },
   {
     "title": "The FDA Cleared a Psychedelic Therapy Device in 2023 and the Field Still Hasn't Caught Up",
@@ -36,7 +37,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Emotion"
   },
   {
     "title": "GPT-3 and the Brain: What the 2020 AI Language Explosion Actually Meant for Psychology",
@@ -55,7 +57,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Emotion"
   },
   {
     "title": "Dopamine Doesn't Reward You. It Drives You. Here's Why That Matters.",
@@ -74,7 +77,8 @@
     "posted_iso": "2026-05-29",
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Habits"
   },
   {
     "title": "The Pandemic Brain: How 2020's Mental Health Crisis Forced Psychology to Reckon With Itself",
@@ -93,6 +97,7 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Emotion"
   }
 ]
