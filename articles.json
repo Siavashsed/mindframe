@@ -99,5 +99,42 @@
       "en"
     ],
     "category": "Emotion"
+  },
+  {
+    "title": "Cognitive Biases Worth Knowing: The Ones That Actually Shape Your Decisions",
+    "slug": "cognitive-biases-worth-knowing",
+    "meta_description": "These cognitive biases silently distort your thinking every day. A psychologist breaks down which ones matter most and how to catch them in action.",
+    "date": "May 31, 2026",
+    "date_iso": "2026-05-31",
+    "author": "Dr. Maya Holloway",
+    "image": "https://images.pexels.com/photos/15701400/pexels-photo-15701400.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "science.org",
+      "journals.sagepub.com",
+      "pewresearch.org"
+    ],
+    "posted_iso": "2026-05-31",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The FDA's Accelerated Approval of Esketamine for Suicidal Depression Changed What Psychiatry Thought Was Possible in 2023",
+    "slug": "esketamine-fda-approval-depression-2023",
+    "meta_description": "In 2023, expanded esketamine approval shifted depression treatment fast. Here's what it actually meant for neuroscience and clinical psychiatry.",
+    "date": "February 22, 2023",
+    "date_iso": "2023-02-22",
+    "author": "Dr. Maya Holloway",
+    "image": "https://images.pexels.com/photos/7722857/pexels-photo-7722857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nejm.org",
+      "science.org",
+      "fda.gov"
+    ],
+    "posted_iso": "2026-05-31",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
