@@ -116,7 +116,8 @@
     "posted_iso": "2026-05-31",
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Cognition"
   },
   {
     "title": "The FDA's Accelerated Approval of Esketamine for Suicidal Depression Changed What Psychiatry Thought Was Possible in 2023",
@@ -135,6 +136,7 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Emotion"
   }
 ]
