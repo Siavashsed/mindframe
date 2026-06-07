@@ -138,5 +138,42 @@
       "en"
     ],
     "category": "Emotion"
+  },
+  {
+    "title": "Chronic Stress Is Physically Shrinking Your Prefrontal Cortex - Here's What That Actually Means",
+    "slug": "chronic-stress-prefrontal-cortex-changes",
+    "meta_description": "Chronic stress reshapes the prefrontal cortex in measurable ways. A neuroscientist explains what's really happening and what you can do about it.",
+    "date": "June 07, 2026",
+    "date_iso": "2026-06-07",
+    "author": "Dr. Maya Holloway",
+    "image": "https://images.pexels.com/photos/6615105/pexels-photo-6615105.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "pnas.org",
+      "ncbi.nlm.nih.gov",
+      "sleepfoundation.org"
+    ],
+    "posted_iso": "2026-06-07",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "MDMA-Assisted Therapy Got FDA Breakthrough Status in 2021. Here's Why That Actually Mattered.",
+    "slug": "mdma-therapy-ptsd-2021-fda-breakthrough",
+    "meta_description": "In 2021, MDMA-assisted therapy for PTSD cleared a major FDA hurdle. Here's what it meant for psychology, neurobiology, and trauma treatment.",
+    "date": "April 16, 2021",
+    "date_iso": "2021-04-16",
+    "author": "Dr. Maya Holloway",
+    "image": "https://images.pexels.com/photos/7088486/pexels-photo-7088486.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nature.com",
+      "maps.org",
+      "nih.gov"
+    ],
+    "posted_iso": "2026-06-07",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
