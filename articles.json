@@ -175,5 +175,25 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "The DSM-5-TR Almost Launched in 2020. What Happened Instead Changed Psychiatry.",
+    "slug": "dsm-5-tr-2020-psychiatry-psychology",
+    "meta_description": "In 2020, the APA's DSM revision process collided with a pandemic and a mental health reckoning. Here's what it meant for psychology and diagnosis.",
+    "date": "August 23, 2020",
+    "date_iso": "2020-08-23",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/4101162/pexels-photo-4101162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "psychiatry.org",
+      "cdc.gov",
+      "pubmed.ncbi.nlm.nih.gov",
+      "nimh.nih.gov"
+    ],
+    "posted_iso": "2026-06-09",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
