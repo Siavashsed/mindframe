@@ -195,5 +195,42 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Body Is Sending Signals to Your Brain All Day. Are You Reading Them?",
+    "slug": "interoception-body-signals-shape-thoughts",
+    "meta_description": "Interoception shapes your thoughts, moods, and decisions more than you think. Here's what the science actually says, and why it matters for mental health.",
+    "date": "July 01, 2026",
+    "date_iso": "2026-07-01",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/8471908/pexels-photo-8471908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nature.com",
+      "royalsocietypublishing.org"
+    ],
+    "posted_iso": "2026-07-01",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The DSM-5-TR Dropped in 2022 and Psychologists Are Still Arguing About It",
+    "slug": "dsm-5-tr-2022-psychology-changes",
+    "meta_description": "The DSM-5-TR arrived in March 2022 with new diagnoses and revised criteria. Here's what actually changed, what didn't, and why it matters for psychology.",
+    "date": "December 24, 2022",
+    "date_iso": "2022-12-24",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/8899543/pexels-photo-8899543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "psychiatry.org",
+      "nejm.org",
+      "nimh.nih.gov",
+      "who.int"
+    ],
+    "posted_iso": "2026-07-01",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
