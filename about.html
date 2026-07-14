@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>About - MindFrame</title>
-<meta name="description" content="About MindFrame: Evidence-led psychology and neurobiology for curious adults.">
+<meta name="description" content="About for MindFrame.">
 <link rel="icon" type="image/svg+xml" href="favicon.svg"><link rel="alternate icon" href="favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
@@ -475,29 +475,7 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:60px 0 30px;bord
   .pl-bar i{right:0}
   #preloader{transition:none}
   .lf-live-dot{animation:none!important}
-}
-/* page */
-.ab{max-width:840px;margin:0 auto;padding:56px 24px 88px}
-.ab-kicker{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:2.5px;color:#ff5a4e;margin-bottom:14px}
-.ab-title{font-family:'Newsreader',Georgia,serif;font-size:clamp(28px,5vw,42px);font-weight:800;line-height:1.15;color:#0e0c1e;margin:0 0 16px}
-.ab-lead{font-size:17px;line-height:1.7;color:#9aa3b8;margin-bottom:40px}
-.ab-author{display:flex;gap:16px;align-items:center;background:#0f1830;border:1px solid #1a2440;border-radius:10px;padding:20px 22px;margin-bottom:32px}
-.ab-avatar{width:56px;height:56px;border-radius:50%;background:#ff5a4e;color:#0b1224;font-size:18px;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0}
-.ab-name{font-size:17px;font-weight:700;color:#f3efe6}
-.ab-role{font-size:13px;color:#ff5a4e;font-weight:600;margin-top:2px}
-.ab-h2{font-family:'Newsreader',Georgia,serif;font-size:20px;font-weight:700;color:#0e0c1e;margin:40px 0 14px}
-.ab-p{font-size:15px;line-height:1.85;color:#9aa3b8;margin-bottom:14px}
-.ab-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:14px}
-.ab-card{background:#0f1830;border:1px solid #1a2440;border-radius:10px;padding:18px}
-.ab-card-av{width:38px;height:38px;border-radius:50%;background:#ff5a4e;color:#0b1224;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-bottom:10px}
-.ab-card-name{font-size:14px;font-weight:700;color:#f3efe6}
-.ab-card-role{font-size:11px;font-weight:600;color:#ff5a4e;margin:2px 0 7px}
-.ab-card-bio{font-size:12px;line-height:1.65;color:#9aa3b8}
-.ab-cta{margin-top:44px;background:#0f1830;border:1px solid #1a2440;border-radius:12px;padding:30px 26px;text-align:center}
-.ab-cta h3{font-family:'Newsreader',Georgia,serif;font-size:19px;font-weight:700;color:#f3efe6;margin:0 0 8px}
-.ab-card-bio,.ab-cta p{color:#c8ccd6}
-.ab-cta p{font-size:14px;color:#9aa3b8;margin:0 0 18px}
-.ab-cta a{display:inline-block;background:#ff5a4e;color:#0b1224;padding:11px 28px;border-radius:7px;font-size:14px;font-weight:700;text-decoration:none}</style>
+}</style>
 </head>
 <body data-page-depth="0">
 <header class="nav" id="nav">
@@ -540,48 +518,320 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:60px 0 30px;bord
     </nav>
   </div>
 </header>
-<main class="ab">
-  <div class="ab-kicker">About MindFrame</div>
-  <h1 class="ab-title">Psychology + Neurobiology, made useful.</h1>
-  <p class="ab-lead">Self-tests, tools, and evidence-led writing on memory, sleep, attention, emotion, habits, and cognition.</p>
-  <div class="ab-author">
-    <div class="ab-avatar">SN</div>
-    <div>
-      <div class="ab-name">Shahnoush Nasiri</div>
-      <div class="ab-role">Cognitive Neuroscientist + Editor</div>
+<style>
+/* ── Base ── */
+.ab-wrap        { max-width:550px; margin:0 auto; padding:0 clamp(20px,4vw,44px); position:relative; z-index:2; }
+.ab-wrap-wide   { max-width:1080px; margin:0 auto; padding:0 clamp(20px,4vw,44px); }
+.ab-sec-tag     { font-family:var(--mono); font-size:10.5px; letter-spacing:0.16em; text-transform:uppercase; color:var(--pink); margin-bottom:14px; display:flex; align-items:center; gap:10px; }
+.ab-sec-tag::before { content:''; width:18px; height:1px; background:currentColor; flex-shrink:0; }
+.ab-sec-title   { font-family:var(--serif); font-size:clamp(22px,2.6vw,28px); font-weight:500; letter-spacing:-0.025em; line-height:1.15; margin-bottom:0; }
+
+/* ── HERO ── */
+.ab-hero { background:var(--ink); color:#fff; padding:clamp(56px,8vw,88px) 0 clamp(44px,6vw,64px); position:relative; overflow:hidden; }
+.ab-hero::before {
+  content:''; position:absolute; inset:0; pointer-events:none;
+  background:
+    radial-gradient(ellipse 460px 300px at -5% 5%,  rgba(232,121,168,.18), transparent 60%),
+    radial-gradient(ellipse 380px 260px at 105% 0%, rgba(167,139,250,.14), transparent 58%);
+}
+.ab-pill {
+  font-family:var(--mono); font-size:10px; letter-spacing:0.15em; text-transform:uppercase;
+  color:var(--lavender); background:rgba(167,139,250,.10); border:1px solid rgba(167,139,250,.22);
+  padding:4px 13px; border-radius:100px; display:inline-block; margin-bottom:20px;
+}
+.ab-h1 {
+  font-family:var(--serif); font-size:clamp(24px,3.2vw,38px); font-weight:400; font-style:italic;
+  letter-spacing:-0.025em; line-height:1.14; color:#fff; margin-bottom:14px;
+}
+.ab-lede {
+  font-size:clamp(14px,1.4vw,16px); line-height:1.7; color:rgba(255,255,255,.62);
+  font-weight:300; margin-bottom:28px;
+}
+
+/* stat chips */
+.ab-stats { display:flex; flex-wrap:wrap; gap:8px; margin-top:4px; }
+.ab-stat  {
+  display:flex; align-items:center; gap:7px;
+  font-family:var(--mono); font-size:11px; color:var(--cream3);
+  background:rgba(242,237,228,.06); border:1px solid rgba(242,237,228,.14);
+  border-radius:100px; padding:5px 13px;
+}
+.ab-stat-dot { width:6px; height:6px; border-radius:50%; flex-shrink:0; }
+.ab-stat-dot--coral    { background:#ff5a4e; }
+.ab-stat-dot--pink     { background:#e879a8; }
+.ab-stat-dot--lavender { background:#a78bfa; }
+.ab-stat-dot--neural   { background:#4a76fb; }
+
+/* ── SECTION 1: replication crisis ── */
+.ab-replication { background:var(--paper); padding:clamp(44px,6vw,68px) 0; }
+.ab-rep-grid    { display:grid; grid-template-columns:1fr 1fr; gap:clamp(24px,4vw,56px); align-items:center; margin-top:36px; }
+.ab-rep-left .ab-sec-title  { color:var(--text); margin-bottom:12px; }
+.ab-rep-left p  { font-size:14px; line-height:1.7; color:var(--text2); margin:0; }
+
+/* SVG bar chart card */
+.ab-chart-card {
+  background:var(--cream); border:1px solid var(--cream3); border-radius:16px;
+  padding:20px 22px;
+}
+.ab-chart-title { font-family:var(--mono); font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:var(--muted); margin-bottom:14px; }
+.ab-chart-svg   { display:block; width:100%; }
+
+/* ── SECTION 2: editorial standards ── */
+.ab-standards { background:var(--cream); padding:clamp(44px,6vw,68px) 0; }
+.ab-std-header { margin-bottom:28px; }
+.ab-std-header .ab-sec-title { color:var(--text); }
+.ab-std-cols   { display:grid; grid-template-columns:1fr 1fr; gap:0 32px; margin-top:28px; }
+.ab-std-row    {
+  display:flex; align-items:baseline; gap:11px;
+  padding:12px 0; border-bottom:1px solid var(--cream3);
+}
+.ab-std-row:last-child { border-bottom:none; }
+.ab-std-check  { flex-shrink:0; }
+.ab-std-label  { font-family:var(--serif); font-size:14px; font-weight:500; color:var(--text); white-space:nowrap; }
+.ab-std-desc   { font-size:13px; color:var(--muted); line-height:1.5; margin-left:4px; }
+
+/* ── SECTION 3: team ── */
+.ab-team      { background:var(--paper); padding:clamp(44px,6vw,68px) 0; }
+.ab-team-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-top:28px; }
+.ab-team-card {
+  display:flex; align-items:flex-start; gap:12px;
+  background:var(--cream); border:1px solid var(--cream3);
+  border-radius:16px; padding:16px;
+}
+.ab-avatar    { width:44px; height:44px; border-radius:50%; overflow:hidden; border:1.5px solid var(--cream3); flex-shrink:0; }
+.ab-avatar img{ width:100%; height:100%; object-fit:cover; display:block; }
+.ab-team-text { min-width:0; }
+.ab-name      { font-family:var(--serif); font-size:15px; font-weight:500; letter-spacing:-0.01em; color:var(--text); line-height:1.2; margin-bottom:2px; }
+.ab-role      { font-family:var(--mono); font-size:9.5px; letter-spacing:0.12em; text-transform:uppercase; color:var(--pink); margin-bottom:6px; }
+.ab-bio       { font-size:12.5px; color:var(--text2); line-height:1.55; margin:0; }
+
+/* ── SECTION 4: values ── */
+.ab-values      { background:var(--ink); color:#fff; padding:clamp(44px,6vw,68px) 0; position:relative; overflow:hidden; }
+.ab-values::before {
+  content:''; position:absolute; inset:0; pointer-events:none;
+  background:
+    radial-gradient(ellipse 400px 260px at 90% 0%,   rgba(167,139,250,.07), transparent 58%),
+    radial-gradient(ellipse 340px 220px at 10% 100%, rgba(232,121,168,.06), transparent 54%);
+}
+.ab-values .ab-wrap  { position:relative; z-index:2; max-width:720px; }
+.ab-values .ab-sec-tag { color:var(--lavender); }
+.ab-values .ab-sec-tag::before { background:var(--lavender); }
+.ab-values .ab-sec-title { color:#fff; margin-bottom:28px; }
+.ab-val-row {
+  display:grid; grid-template-columns:40px 1fr 1fr; align-items:center;
+  gap:0 20px; height:52px; border-bottom:1px solid rgba(255,255,255,.08);
+}
+.ab-val-row:last-child { border-bottom:none; }
+.ab-val-num    { font-family:var(--mono); font-size:10px; letter-spacing:0.10em; color:var(--lavender); }
+.ab-val-head   { font-family:var(--serif); font-size:15px; font-weight:500; color:#fff; letter-spacing:-0.01em; }
+.ab-val-desc   { font-size:13px; color:rgba(255,255,255,.52); line-height:1.45; }
+
+/* ── SECTION 5: CTA ── */
+.ab-cta { background:var(--ink3); padding:48px 0; text-align:center; }
+.ab-cta-title { font-family:var(--serif); font-size:clamp(22px,2.6vw,28px); font-weight:400; font-style:italic; color:#fff; letter-spacing:-0.02em; margin-bottom:22px; }
+.ab-cta-btns  { display:flex; justify-content:center; gap:12px; flex-wrap:wrap; }
+.ab-btn {
+  font-family:var(--mono); font-size:11.5px; letter-spacing:0.10em; text-transform:uppercase;
+  padding:10px 22px; border-radius:100px; text-decoration:none; transition:opacity .18s;
+}
+.ab-btn:hover { opacity:.82; }
+.ab-btn--primary   { background:#fff; color:var(--ink); }
+.ab-btn--secondary { background:transparent; color:rgba(255,255,255,.72); border:1px solid rgba(255,255,255,.22); }@media(max-width:720px) {
+  .ab-rep-grid  { grid-template-columns:1fr; }
+  .ab-std-cols  { grid-template-columns:1fr; }
+  .ab-team-grid { grid-template-columns:1fr; }
+  .ab-val-row   { grid-template-columns:36px 1fr; height:auto; padding:14px 0; }
+  .ab-val-desc  { grid-column:2; }
+  .ab-stats     { gap:6px; }
+}@media(max-width:480px) {
+  .ab-team-grid { grid-template-columns:1fr; }
+}</style>
+
+<!-- HERO -->
+<section class="ab-hero">
+  <div class="ab-wrap">
+    <span class="ab-pill">About MindFrame</span>
+    <h1 class="ab-h1">We think you deserve better than the average science article.</h1>
+    <p class="ab-lede">MindFrame publishes evidence-based writing on psychology and neuroscience. We cite primary sources, report effect sizes, and never sensationalize a finding for clicks.</p>
+    <div class="ab-stats">
+      <span class="ab-stat"><span class="ab-stat-dot ab-stat-dot--coral"></span>127 articles</span>
+      <span class="ab-stat"><span class="ab-stat-dot ab-stat-dot--pink"></span>5 lab tests</span>
+      <span class="ab-stat"><span class="ab-stat-dot ab-stat-dot--lavender"></span>3 tools</span>
+      <span class="ab-stat"><span class="ab-stat-dot ab-stat-dot--neural"></span>0 sponsored posts</span>
     </div>
   </div>
-  <div class="ab-h2">Why this site exists</div>
-  <p class="ab-p">I spent eight years running working-memory and attention experiments at a behavioral neuroscience lab before going independent. The papers were dense - the takeaways were not.</p>
-    <p class="ab-p">MindFrame translates serious psychology and brain research into things you can actually do. Evidence first, no clickbait, no neuro-pop nonsense.</p>
-  <div class="ab-h2">Who contributes</div>
-  <p class="ab-p">Alongside Shahnoush Nasiri, a small group of practitioners review and pressure-test what gets published here.</p>
-  <div class="ab-grid">
-      <div class="ab-card">
-        <div class="ab-card-av">DJ</div>
-        <div class="ab-card-name">Dr. Jonathan Wise</div>
-        <div class="ab-card-role">Contributor</div>
-        <div class="ab-card-bio"></div>
+</section>
+
+<!-- REPLICATION CRISIS -->
+<section class="ab-replication">
+  <div class="ab-wrap-wide">
+    <div class="ab-rep-grid">
+
+      <div class="ab-rep-left">
+        <div class="ab-sec-tag" style="color:var(--accent);">The Problem</div>
+        <h2 class="ab-sec-title">Half of popular psychology never replicated.</h2>
+        <p>Most articles skip the replication record entirely. We do not. Every piece on MindFrame flags whether a finding survived independent reproduction.</p>
       </div>
-      <div class="ab-card">
-        <div class="ab-card-av">AP</div>
-        <div class="ab-card-name">Alexis Parker</div>
-        <div class="ab-card-role">Contributor</div>
-        <div class="ab-card-bio"></div>
+
+      <div class="ab-chart-card">
+        <div class="ab-chart-title">Psychology Replication Rates</div>
+        <svg class="ab-chart-svg" viewBox="0 0 280 128" xmlns="http://www.w3.org/2000/svg" aria-label="Bar chart showing replication rates by subfield" role="img">
+          <!-- track backgrounds -->
+          <rect x="80" y="10"  width="160" height="16" rx="4" fill="rgba(0,0,0,.06)"/>
+          <rect x="80" y="38"  width="160" height="16" rx="4" fill="rgba(0,0,0,.06)"/>
+          <rect x="80" y="66"  width="160" height="16" rx="4" fill="rgba(0,0,0,.06)"/>
+          <rect x="80" y="94"  width="160" height="16" rx="4" fill="rgba(0,0,0,.06)"/>
+          <!-- filled bars -->
+          <rect x="80" y="10"  width="57.6"  height="16" rx="4" fill="#ff5a4e" opacity=".85"/>
+          <rect x="80" y="38"  width="83.2"  height="16" rx="4" fill="#e879a8" opacity=".85"/>
+          <rect x="80" y="66"  width="113.6" height="16" rx="4" fill="#a78bfa" opacity=".85"/>
+          <rect x="80" y="94"  width="100.8" height="16" rx="4" fill="#4a76fb" opacity=".85"/>
+          <!-- labels -->
+          <text x="76" y="22"  text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="9.5" fill="#3a4560">Social Psych</text>
+          <text x="76" y="50"  text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="9.5" fill="#3a4560">Cognitive Psych</text>
+          <text x="76" y="78"  text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="9.5" fill="#3a4560">Neuroscience</text>
+          <text x="76" y="106" text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="9.5" fill="#3a4560">Clinical Psych</text>
+          <!-- percent labels -->
+          <text x="141.6" y="22"  font-family="'JetBrains Mono',monospace" font-size="9" fill="#fff" font-weight="600">36%</text>
+          <text x="167.2" y="50"  font-family="'JetBrains Mono',monospace" font-size="9" fill="#fff" font-weight="600">52%</text>
+          <text x="197.6" y="78"  font-family="'JetBrains Mono',monospace" font-size="9" fill="#fff" font-weight="600">71%</text>
+          <text x="184.8" y="106" font-family="'JetBrains Mono',monospace" font-size="9" fill="#fff" font-weight="600">63%</text>
+        </svg>
       </div>
-      <div class="ab-card">
-        <div class="ab-card-av">TS</div>
-        <div class="ab-card-name">Thomas Sterling</div>
-        <div class="ab-card-role">Contributor</div>
-        <div class="ab-card-bio"></div>
-      </div>
+
+    </div>
   </div>
-  <div class="ab-cta">
-    <h3>The MindFrame Brief</h3>
-    <p>One short, evidence-led essay each week. No filler, no fear-mongering.</p>
-    <a href="./">Read the latest</a>
+</section>
+
+<!-- EDITORIAL STANDARDS -->
+<section class="ab-standards">
+  <div class="ab-wrap-wide">
+    <div class="ab-std-header">
+      <div class="ab-sec-tag">Our Standards</div>
+      <h2 class="ab-sec-title" style="color:var(--text);">What we check before publishing.</h2>
+    </div>
+    <div class="ab-std-cols">
+      <div>
+        <div class="ab-std-row">
+          <span class="ab-std-check"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><circle cx="7" cy="7" r="6.5" stroke="#22c55e" stroke-width="1"/><polyline points="4,7.5 6.2,9.5 10,5" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <span class="ab-std-label">Primary source</span>
+          <span class="ab-std-desc">Links to the original paper, not secondary coverage</span>
+        </div>
+        <div class="ab-std-row">
+          <span class="ab-std-check"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><circle cx="7" cy="7" r="6.5" stroke="#22c55e" stroke-width="1"/><polyline points="4,7.5 6.2,9.5 10,5" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <span class="ab-std-label">Effect size</span>
+          <span class="ab-std-desc">Cohen's d or equivalent always reported</span>
+        </div>
+        <div class="ab-std-row">
+          <span class="ab-std-check"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><circle cx="7" cy="7" r="6.5" stroke="#22c55e" stroke-width="1"/><polyline points="4,7.5 6.2,9.5 10,5" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <span class="ab-std-label">Sample context</span>
+          <span class="ab-std-desc">Who was studied and how many</span>
+        </div>
+      </div>
+      <div>
+        <div class="ab-std-row">
+          <span class="ab-std-check"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><circle cx="7" cy="7" r="6.5" stroke="#22c55e" stroke-width="1"/><polyline points="4,7.5 6.2,9.5 10,5" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <span class="ab-std-label">Replication status</span>
+          <span class="ab-std-desc">Noted when a finding has failed to reproduce</span>
+        </div>
+        <div class="ab-std-row">
+          <span class="ab-std-check"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><circle cx="7" cy="7" r="6.5" stroke="#22c55e" stroke-width="1"/><polyline points="4,7.5 6.2,9.5 10,5" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <span class="ab-std-label">No pop inflation</span>
+          <span class="ab-std-desc">We do not repackage weak correlations as life-changing</span>
+        </div>
+        <div class="ab-std-row">
+          <span class="ab-std-check"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><circle cx="7" cy="7" r="6.5" stroke="#22c55e" stroke-width="1"/><polyline points="4,7.5 6.2,9.5 10,5" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <span class="ab-std-label">No ad incentives</span>
+          <span class="ab-std-desc">Not funded by supplements or coaching programs</span>
+        </div>
+      </div>
+    </div>
   </div>
-</main>
+</section>
+
+<!-- TEAM -->
+<section class="ab-team">
+  <div class="ab-wrap-wide">
+    <div class="ab-sec-tag">Contributors</div>
+    <h2 class="ab-sec-title" style="color:var(--text); margin-bottom:0;">The people behind the coverage.</h2>
+    <div class="ab-team-grid">
+
+      <div class="ab-team-card">
+        <div class="ab-avatar">
+          <img src="https://api.dicebear.com/7.x/notionists/svg?seed=Jonathan&backgroundColor=b6e3f4" alt="Dr. Jonathan Wise" loading="lazy">
+        </div>
+        <div class="ab-team-text">
+          <div class="ab-name">Dr. Jonathan Wise</div>
+          <div class="ab-role">Cognitive Psychology</div>
+          <p class="ab-bio">UCL research fellow covering memory and decision-making neuroscience.</p>
+        </div>
+      </div>
+
+      <div class="ab-team-card">
+        <div class="ab-avatar">
+          <img src="https://api.dicebear.com/7.x/notionists/svg?seed=Alexis&backgroundColor=b6e3f4" alt="Alexis Parker" loading="lazy">
+        </div>
+        <div class="ab-team-text">
+          <div class="ab-name">Alexis Parker</div>
+          <div class="ab-role">Sleep and Health</div>
+          <p class="ab-bio">Sleep science, circadian rhythm, and cognitive performance research.</p>
+        </div>
+      </div>
+
+      <div class="ab-team-card">
+        <div class="ab-avatar">
+          <img src="https://api.dicebear.com/7.x/notionists/svg?seed=Rebecca&backgroundColor=b6e3f4" alt="Rebecca Moon" loading="lazy">
+        </div>
+        <div class="ab-team-text">
+          <div class="ab-name">Rebecca Moon</div>
+          <div class="ab-role">Clinical Psychology</div>
+          <p class="ab-bio">Attachment theory, CBT effectiveness, and mental health evidence.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- VALUES -->
+<section class="ab-values">
+  <div class="ab-wrap">
+    <div class="ab-sec-tag">What We Believe</div>
+    <h2 class="ab-sec-title">Four things we will not compromise on.</h2>
+
+    <div class="ab-val-row">
+      <span class="ab-val-num">01</span>
+      <span class="ab-val-head">Honesty over engagement</span>
+      <span class="ab-val-desc">We will not frame a weak correlation as a breakthrough for shares.</span>
+    </div>
+    <div class="ab-val-row">
+      <span class="ab-val-num">02</span>
+      <span class="ab-val-head">Complexity is fine</span>
+      <span class="ab-val-desc">If the research is nuanced, we say so. No false clarity.</span>
+    </div>
+    <div class="ab-val-row">
+      <span class="ab-val-num">03</span>
+      <span class="ab-val-head">The individual varies</span>
+      <span class="ab-val-desc">Population averages are not destiny. Variance matters.</span>
+    </div>
+    <div class="ab-val-row">
+      <span class="ab-val-num">04</span>
+      <span class="ab-val-head">Trust is earned per-article</span>
+      <span class="ab-val-desc">We do not ask you to trust the brand. Trust the citations.</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="ab-cta">
+  <h2 class="ab-cta-title">Start reading.</h2>
+  <div class="ab-cta-btns">
+    <a href="/articles" class="ab-btn ab-btn--primary">Browse articles</a>
+    <a href="/tools"    class="ab-btn ab-btn--secondary">Take a lab test</a>
+  </div>
+</section>
+
 <footer>
   <div class="foot-grid">
     <div class="foot-brand">
