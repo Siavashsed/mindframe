@@ -232,5 +232,41 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Why Mirror Neurons Explain Less About Empathy Than You Think",
+    "slug": "mirror-neurons-biology-empathy",
+    "meta_description": "Mirror neurons got sold as the biology of empathy. The real research is messier, more interesting, and more honest about what your brain actually does.",
+    "date": "July 13, 2026",
+    "date_iso": "2026-07-13",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/8554633/pexels-photo-8554633.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "annualreviews.org",
+      "cell.com",
+      "pubmed.ncbi.nlm.nih.gov"
+    ],
+    "posted_iso": "2026-07-13",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The WHO Just Redefined Burnout, and Half the Internet Got It Wrong",
+    "slug": "who-burnout-icd11-2019",
+    "meta_description": "In May 2019 the WHO added burnout to the ICD-11 as an occupational phenomenon. Here is what that actually means, and the big thing most reports got backward.",
+    "date": "October 16, 2019",
+    "date_iso": "2019-10-16",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/3760811/pexels-photo-3760811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "who.int",
+      "gallup.com"
+    ],
+    "posted_iso": "2026-07-13",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
