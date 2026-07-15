@@ -268,5 +268,42 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Why One Old Song Hijacks Your Whole Body in Three Seconds",
+    "slug": "neuroscience-of-nostalgia-explained",
+    "meta_description": "The neuroscience of nostalgia, why remembering the past feels so physical, and what your brain is actually doing when a memory floods back.",
+    "date": "July 15, 2026",
+    "date_iso": "2026-07-15",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/29683401/pexels-photo-29683401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "eneuro.org",
+      "apa.org",
+      "southampton.ac.uk"
+    ],
+    "posted_iso": "2026-07-15",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "One Neuroscientist, Doctored Blots, and Alzheimer's 16-Year Detour",
+    "slug": "amyloid-fraud-2022-alzheimers-science",
+    "meta_description": "A 2022 Science investigation flagged possible image fraud in a landmark amyloid study. Here is what it means for Alzheimer's research and the amyloid theory.",
+    "date": "May 24, 2022",
+    "date_iso": "2022-05-24",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/7088524/pexels-photo-7088524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "science.org",
+      "alz.org",
+      "who.int"
+    ],
+    "posted_iso": "2026-07-15",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
