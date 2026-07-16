@@ -305,5 +305,45 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "The Dopamine Behind Musical Chills, and Why Focus Playlists Lie",
+    "slug": "music-brain-chemistry-chills-focus",
+    "meta_description": "How music changes brain chemistry, from the dopamine of chills to the messy truth about focus playlists, explained with real studies.",
+    "date": "July 16, 2026",
+    "date_iso": "2026-07-16",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/5708720/pexels-photo-5708720.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nature.com",
+      "nih.gov",
+      "tandfonline.com",
+      "onlinelibrary.wiley.com"
+    ],
+    "posted_iso": "2026-07-16",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The FDA Just Cleared a Video Game to Treat ADHD",
+    "slug": "fda-endeavorrx-prescription-video-game-adhd",
+    "meta_description": "EndeavorRx just became the first FDA-cleared prescription video game for kids with ADHD. What the 2020 trial data really shows, and what it doesn't.",
+    "date": "January 09, 2020",
+    "date_iso": "2020-01-09",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/7047243/pexels-photo-7047243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "fda.gov",
+      "thelancet.com",
+      "cdc.gov",
+      "nature.com",
+      "ftc.gov"
+    ],
+    "posted_iso": "2026-07-16",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
