@@ -345,5 +345,44 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "What Anesthesia Gets Wrong About Turning Off the Mind",
+    "slug": "anesthesia-sleep-boundaries-of-consciousness",
+    "meta_description": "Anesthesia and sleep don't switch consciousness off like a lamp. Here's what the brain-complexity research actually shows, and where it still fails.",
+    "date": "July 20, 2026",
+    "date_iso": "2026-07-20",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/6129691/pexels-photo-6129691.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "science.org",
+      "nature.com",
+      "nationalauditprojects.org.uk",
+      "cell.com",
+      "bjanaesthesia.org"
+    ],
+    "posted_iso": "2026-07-20",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Neuralink Put a Chip in a Human. Then the Threads Came Loose.",
+    "slug": "neuralink-2024-first-human-implant",
+    "meta_description": "In 2024 Neuralink's first human implant worked, then partly failed. What the retracted threads revealed about brain-computer interfaces and hype.",
+    "date": "January 11, 2024",
+    "date_iso": "2024-01-11",
+    "author": "Shahnoush Nasiri",
+    "image": "",
+    "outbound_links": [
+      "nature.com",
+      "spectrum.ieee.org",
+      "neuralink.com"
+    ],
+    "posted_iso": "2026-07-20",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
