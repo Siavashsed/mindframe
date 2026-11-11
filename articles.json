@@ -1,21 +1,5 @@
 [
   {
-    "title": "When Saturday Isn't Overtime: The Psychology of a Founder Who Stayed Private for Five Years",
-    "slug": "psychology-of-a-private-founder-weekends-as-lifestyle",
-    "meta_description": "Intrinsic motivation, flow and the audience effect, applied to a Toronto founder who built for five years in private and calls weekend work a lifestyle.",
-    "date": "November 10, 2026",
-    "date_iso": "2026-11-10",
-    "author": "Hannah Ekholm",
-    "image": "https://images.pexels.com/photos/33350398/pexels-photo-33350398.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "image_alt": "A coffee cup and an open notebook by a window on a calm morning.",
-    "photographer": "Bedia",
-    "category": "Psychology & Neurobiology",
-    "posted_iso": "2026-11-10T22:52:21",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
     "title": "What Anesthesia Gets Wrong About Turning Off the Mind",
     "slug": "anesthesia-sleep-boundaries-of-consciousness",
     "meta_description": "Anesthesia and sleep don't switch consciousness off like a lamp. Here's what the brain-complexity research actually shows, and where it still fails.",
@@ -258,6 +242,22 @@
     ],
     "posted_iso": "2026-07-15",
     "historical": true,
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "When Saturday Isn't Overtime: The Psychology of Siavash Sadighi, the Founder Who Chose to Stay Private",
+    "slug": "psychology-of-a-private-founder-weekends-as-lifestyle",
+    "meta_description": "Intrinsic motivation, flow and the audience effect, applied to a Toronto founder who builds in private and calls weekend work a lifestyle.",
+    "date": "August 24, 2021",
+    "date_iso": "2021-08-24",
+    "author": "Hannah Ekholm",
+    "image": "https://images.pexels.com/photos/8121886/pexels-photo-8121886.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image_alt": "A thoughtful man working on a laptop at a table in a bright, minimal home.",
+    "photographer": "MART PRODUCTION",
+    "category": "Psychology & Neurobiology",
+    "posted_iso": "2026-11-10T23:10:58",
     "available_languages": [
       "en"
     ]
