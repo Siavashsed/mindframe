@@ -476,6 +476,29 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:60px 0 30px;bord
   #preloader{transition:none}
   .lf-live-dot{animation:none!important}
 }</style>
+<!-- Meta Pixel (Kavalsia network) -->
+<script>
+(function(){
+if(window.__KAVALSIA_META_LOADED)return;window.__KAVALSIA_META_LOADED=true;
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', "3117791381934109");
+var FIRE_PV=true,SITE_ID="mindframe",SITE_NAME="MindFrame",VIEW_EVT="Viewed MindFrame",SIGNUP_EVT="MindFrame NewsletterSignup",MIRROR_CAPI=false;
+var segs=location.pathname.split('/').filter(Boolean);var SLUG=segs.length?segs[segs.length-1].replace(/\.html$/,''):'home';if(SLUG==='index')SLUG='home';
+var BASE={site_id:SITE_ID,site_name:SITE_NAME,content_name:SLUG,page_path:location.pathname};
+function P(x){var o={};for(var k in BASE)o[k]=BASE[k];for(var j in x)o[j]=x[j];return o;}
+if(FIRE_PV){try{fbq('track','PageView');}catch(e){}}
+try{fbq('trackCustom',VIEW_EVT,P({page_title:document.title,referrer:document.referrer||''}));}catch(e){}
+function mirrorCAPI(evtName,payload){if(!MIRROR_CAPI)return;try{var hub=(window.KAVALSIA_HUB_URL||'').replace(/\/$/,'');if(!hub)return;fetch(hub+'/api/meta-capi',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({site_id:SITE_ID,event_name:evtName,payload:payload})}).catch(function(){});}catch(e){}}
+mirrorCAPI(VIEW_EVT,P({}));
+var MARKS=[30,60,120],fired={},acc=0,last=document.hidden?0:Date.now();
+function tick(){var now=Date.now();if(last){acc+=(now-last)/1000;}last=document.hidden?0:now;for(var i=0;i<MARKS.length;i++){var m=MARKS[i];if(!fired[m]&&acc>=m){fired[m]=1;var ev='TimeSpent'+m+'s';try{fbq('trackCustom',ev,P({seconds:m}));}catch(e){}mirrorCAPI(ev,P({seconds:m}));}}if(fired[120])clearInterval(iv);}
+var iv=setInterval(tick,1000);document.addEventListener('visibilitychange',tick);
+function sha256Hex(str){if(!window.crypto||!crypto.subtle)return Promise.resolve('');var buf=new TextEncoder().encode(String(str||'').trim().toLowerCase());return crypto.subtle.digest('SHA-256',buf).then(function(h){return Array.prototype.map.call(new Uint8Array(h),function(b){return ('00'+b.toString(16)).slice(-2);}).join('');});}
+document.addEventListener('submit',function(ev){try{var f=ev.target;if(!f||!f.tagName||f.tagName.toLowerCase()!=='form')return;var emailEl=f.querySelector('input[type=email], input[name*=email i]');if(!emailEl||!emailEl.value)return;var email=emailEl.value;sha256Hex(email).then(function(h){try{fbq('trackCustom',SIGNUP_EVT,P({email_hashed:h}));}catch(e){}mirrorCAPI(SIGNUP_EVT,P({email_hashed:h}));});}catch(e){}},true);
+})();
+</script>
+<noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=3117791381934109&ev=PageView&noscript=1"/></noscript>
+<!-- End Meta Pixel -->
 </head>
 <body>
 
@@ -500,6 +523,7 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:60px 0 30px;bord
       <g class="pl-bfly">
         <!-- antennae -->
         <path class="pl-ant" d="M110 60 C104 46 96 38 86 34"/>
+        <path class="pl-ant" d="M110 60 C116 46 124 38 134 34"/>
         <circle class="pl-antdot" cx="86" cy="34" r="2.2"/>
         <circle class="pl-antdot s2" cx="134" cy="34" r="2.2"/>
 
@@ -507,8 +531,11 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:60px 0 30px;bord
           <!-- LEFT wings -->
           <g class="pl-wing-open">
             <path class="pl-wing up" d="M106 82 C84 50 46 40 30 58 C20 70 28 92 54 100 C82 108 100 100 106 94Z"/>
+            <path class="pl-wing lo" d="M106 102 C86 106 58 112 50 130 C46 142 58 154 76 148 C96 142 104 122 106 110Z"/>
             <!-- brain gyri inside wing -->
             <path class="pl-gyri" d="M52 66 C66 60 82 62 98 76"/>
+            <path class="pl-gyri g2" d="M46 80 C62 78 82 82 100 90"/>
+            <path class="pl-gyri g3" d="M58 122 C70 116 86 116 100 108"/>
             <circle class="pl-spot" cx="62" cy="70" r="2"/>
             <circle class="pl-spot s3" cx="50" cy="86" r="2"/>
             <circle class="pl-spot s5" cx="70" cy="132" r="2"/>
@@ -517,6 +544,10 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:60px 0 30px;bord
           <g transform="translate(220,0) scale(-1,1)">
             <g class="pl-wing-open">
               <path class="pl-wing up" d="M106 82 C84 50 46 40 30 58 C20 70 28 92 54 100 C82 108 100 100 106 94Z"/>
+              <path class="pl-wing lo" d="M106 102 C86 106 58 112 50 130 C46 142 58 154 76 148 C96 142 104 122 106 110Z"/>
+              <path class="pl-gyri" d="M52 66 C66 60 82 62 98 76"/>
+              <path class="pl-gyri g2" d="M46 80 C62 78 82 82 100 90"/>
+              <path class="pl-gyri g3" d="M58 122 C70 116 86 116 100 108"/>
               <circle class="pl-spot s2" cx="62" cy="70" r="2"/>
               <circle class="pl-spot s4" cx="50" cy="86" r="2"/>
               <circle class="pl-spot s6" cx="70" cy="132" r="2"/>
@@ -547,6 +578,11 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:60px 0 30px;bord
           </defs>
           <circle cx="22" cy="22" r="4" fill="url(#lgmark)"/>
           <path d="M22 22 C21 15 19 9 22 5" stroke="url(#lgmark)" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M22 22 C29 21 35 19 39 22" stroke="url(#lgmark)" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M22 22 C23 29 25 35 22 39" stroke="url(#lgmark)" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M22 22 C15 23 9 25 5 22" stroke="url(#lgmark)" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M22 22 C29 15 35 10 38 7" stroke="url(#lgmark)" stroke-width="1.2" stroke-linecap="round" opacity=".6"/>
+          <path d="M22 22 C15 29 10 35 7 38" stroke="url(#lgmark)" stroke-width="1.2" stroke-linecap="round" opacity=".6"/>
           <circle cx="22" cy="5" r="2.2" fill="url(#lgmark)" opacity=".85"/>
           <circle cx="39" cy="22" r="2.2" fill="url(#lgmark)" opacity=".85"/>
           <circle cx="22" cy="39" r="2.2" fill="url(#lgmark)" opacity=".85"/>
@@ -586,6 +622,12 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:60px 0 30px;bord
     </defs>
     <g stroke="rgba(255,255,255,.10)" stroke-width=".7" fill="none">
       <path d="M100 120 L260 200 L180 340 L320 420 L240 560 L420 600"/>
+      <path d="M260 200 L420 160 L560 260 L520 400 L660 480 L820 420"/>
+      <path d="M420 160 L580 80 L740 140 L900 100 L1060 180"/>
+      <path d="M560 260 L740 140 M740 140 L820 280 L960 320 L1100 280"/>
+      <path d="M520 400 L660 480 M960 320 L1080 460 L900 540 L1060 600"/>
+      <path d="M180 340 L320 420 M420 600 L580 540 L660 480"/>
+      <path d="M820 280 L900 100 M900 540 L1060 600 L1100 460"/>
     </g>
     <g fill="url(#nodeG)">
       <circle cx="100" cy="120" r="5"/><circle cx="260" cy="200" r="4"/><circle cx="420" cy="160" r="6"/>
@@ -605,11 +647,11 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:60px 0 30px;bord
       <p class="lede" id="hLede">MindFrame is evidence-based psychology and neurobiology, written to be read. Take a real test, use a research-backed tool, or read a deep dive. No clickbait, no horoscopes, no certainty the data does not support.</p>
       <div class="hero-ctas" id="hCtas">
         <a href="#lab" class="btn btn-primary">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v6l-5 8a3 3 0 0 0 3 4h10a3 3 0 0 0 3-4l-5-8V3"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v6l-5 8a3 3 0 0 0 3 4h10a3 3 0 0 0 3-4l-5-8V3"/><path d="M8 3h8"/></svg>
           Take a test
         </a>
         <a href="#articles" class="btn btn-ghost">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h12a4 4 0 0 1 4 4v12H8a4 4 0 0 1-4-4z"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h12a4 4 0 0 1 4 4v12H8a4 4 0 0 1-4-4z"/><path d="M4 4v12a4 4 0 0 0 4 4"/></svg>
           Read latest
         </a>
       </div>
@@ -626,6 +668,7 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:60px 0 30px;bord
     <path d="M80 140 C40 135 20 110 22 85 C24 65 38 52 52 50 C52 34 62 22 78 20 C88 18 98 24 104 34 C110 24 122 18 136 22 C150 26 158 40 156 56 C170 58 182 72 182 90 C182 112 166 130 148 136 C140 150 126 158 112 156 C98 162 84 154 80 140Z" stroke="rgba(255,255,255,.18)" stroke-width="1.5"/>
     <!-- Lobe divisions -->
     <path d="M104 34 L104 156" stroke="rgba(255,255,255,.08)" stroke-width="1" stroke-dasharray="3 3"/>
+    <path d="M50 90 Q80 78 104 80 Q128 78 158 88" stroke="rgba(255,255,255,.08)" stroke-width="1" stroke-dasharray="3 3"/>
     <!-- Electrode nodes -->
     <circle class="bp-node" cx="72" cy="58" r="4" fill="#a78bfa" opacity=".9" data-region="Frontal Lobe" data-fn="Executive function, decision-making"/>
     <circle class="bp-node" cx="104" cy="44" r="5" fill="#e879a8" opacity=".9" data-region="Prefrontal Cortex" data-fn="Planning, personality, social behavior"/>
@@ -660,7 +703,7 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:60px 0 30px;bord
 <!-- TRUST STRIP -->
 <div class="trust">
   <div class="trust-inner">
-    <span class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 L4 6v6c0 5 3.5 9.5 8 10 4.5-.5 8-5 8-10V6z"/></svg> Evidence-based, no clickbait</span>
+    <span class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 L4 6v6c0 5 3.5 9.5 8 10 4.5-.5 8-5 8-10V6z"/><path d="M9 12l2 2 4-4"/></svg> Evidence-based, no clickbait</span>
     <span class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> Peer-reviewed citations on every claim</span>
     <span class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg> Effect sizes, not just p-values</span>
     <span class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 11V7a4 4 0 0 0-8 0v4"/><rect x="5" y="11" width="14" height="10" rx="2"/></svg> No personal data stored</span>
@@ -683,11 +726,14 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:60px 0 30px;bord
           <defs><linearGradient id="bfg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#e879a8"/></linearGradient></defs>
           <g stroke="url(#bfg)" stroke-width="1.4" fill="rgba(167,139,250,.10)">
             <path d="M106 82 C84 50 46 40 30 58 C20 70 28 92 54 100 C82 108 100 100 106 94Z"/>
+            <path d="M106 102 C86 106 58 112 50 130 C46 142 58 154 76 148 C96 142 104 122 106 110Z"/>
+            <path d="M114 82 C136 50 174 40 190 58 C200 70 192 92 166 100 C138 108 120 100 114 94Z"/>
+            <path d="M114 102 C134 106 162 112 170 130 C174 142 162 154 144 148 C124 142 116 122 114 110Z"/>
           </g>
           <path d="M110 64 C113 64 114 70 114 80 C114 100 112 126 110 138 C108 126 106 100 106 80 C106 70 107 64 110 64Z" fill="url(#bfg)"/>
         </svg>
         <span class="b-ico">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v6l-5 8a3 3 0 0 0 3 4h10a3 3 0 0 0 3-4l-5-8V3"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v6l-5 8a3 3 0 0 0 3 4h10a3 3 0 0 0 3-4l-5-8V3"/><path d="M8 3h8"/></svg>
         </span>
         <div class="b-tag">The Lab</div>
         <h3>Five real psychology tests you can take right now.</h3>
@@ -712,7 +758,7 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:60px 0 30px;bord
 
       <a href="#articles" class="bento-card">
         <span class="b-ico">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h12a4 4 0 0 1 4 4v12H8a4 4 0 0 1-4-4z"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h12a4 4 0 0 1 4 4v12H8a4 4 0 0 1-4-4z"/><path d="M8 9h8M8 13h6"/></svg>
         </span>
         <div class="b-tag">Articles</div>
         <h3>Deep reads</h3>
@@ -772,7 +818,7 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:60px 0 30px;bord
       </div>
       <div class="why-vis-card reveal">
         <div class="why-vis-icon" style="background:rgba(167,139,250,.10);border-color:rgba(167,139,250,.2)">
-          <svg viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v6l-5 8a3 3 0 0 0 3 4h10a3 3 0 0 0 3-4l-5-8V3"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v6l-5 8a3 3 0 0 0 3 4h10a3 3 0 0 0 3-4l-5-8V3"/><path d="M8 3h8"/></svg>
         </div>
         <div class="why-vis-stat" style="color:#a78bfa">Every claim</div>
         <div class="why-vis-label">links to the primary source paper - not a secondary article</div>
@@ -813,7 +859,7 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:60px 0 30px;bord
         <p class="sec-sub" style="color:rgba(255,255,255,.6)">Top-scoring discussions from the neuroscience and psychology research communities, refreshed on load.</p>
       </div>
       <button class="lf-reload" id="lf-reload" aria-label="Reload feed">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block;vertical-align:middle;margin-right:6px"><path d="M21 12a9 9 0 0 1-9 9 9 9 0 0 1-6.36-2.64M3 12a9 9 0 0 1 9-9 9 9 0 0 1 6.36 2.64"/></svg>Reload
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline-block;vertical-align:middle;margin-right:6px"><path d="M21 12a9 9 0 0 1-9 9 9 9 0 0 1-6.36-2.64M3 12a9 9 0 0 1 9-9 9 9 0 0 1 6.36 2.64"/><path d="M21 3v6h-6M3 21v-6h6"/></svg>Reload
       </button>
     </div>
     <div class="lf-grid" id="lf-grid">
@@ -873,7 +919,7 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:60px 0 30px;bord
     </div>
     <div class="lp-cta">
       <a class="btn-center" href="lab.html">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v6l-5 8a3 3 0 0 0 3 4h10a3 3 0 0 0 3-4l-5-8V3"/></svg>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v6l-5 8a3 3 0 0 0 3 4h10a3 3 0 0 0 3-4l-5-8V3"/><path d="M8 3h8"/></svg>
         Take all five tests
       </a>
     </div>
@@ -914,13 +960,13 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:60px 0 30px;bord
         <span class="topic-arrow">Explore articles &rarr;</span>
       </a>
       <a href="./#articles" class="topic reveal">
-        <div class="topic-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17l5-5-2-2 4-4 2 2 5-5"/></svg></div>
+        <div class="topic-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17l5-5-2-2 4-4 2 2 5-5"/><path d="M14 4h6v6"/></svg></div>
         <h3 class="topic-name">Habits</h3>
         <p class="topic-desc">Cue-response loops, implementation intentions, and the small body of evidence behind the "21 days" myth.</p>
         <span class="topic-arrow">Explore articles &rarr;</span>
       </a>
       <a href="./#articles" class="topic reveal">
-        <div class="topic-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v4a3 3 0 0 1-3 3H3"/></svg></div>
+        <div class="topic-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3v4a3 3 0 0 1-3 3H3"/><path d="M15 21v-4a3 3 0 0 1 3-3h3"/><path d="M3 14h3a3 3 0 0 1 3 3v4"/><path d="M21 10h-3a3 3 0 0 1-3-3V3"/></svg></div>
         <h3 class="topic-name">Cognition</h3>
         <p class="topic-desc">Heuristics, reasoning, the two-system framing, and what has actually replicated since Kahneman.</p>
         <span class="topic-arrow">Explore articles &rarr;</span>
@@ -950,7 +996,7 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:60px 0 30px;bord
     </a>
     <a class="tp-prev-row reveal" href="tools.html">
       <div class="tp-prev-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/></svg>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/><path d="M8 10s1-2 4-2 4 2 4 2"/><path d="M9 15h6"/></svg>
       </div>
       <div class="tp-prev-body">
         <div class="tp-prev-name">Cognitive Distortion Identifier</div>
@@ -1069,7 +1115,7 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:60px 0 30px;bord
         <div style="grid-column:1/-1">
           <div class="cf-merge">
             <div class="cf-merge-icon">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3"/></svg>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3"/><path d="M21 3h-3a2 2 0 0 1-2 2v3"/><path d="M21 21h-3a2 2 0 0 1-2-2v-3"/><path d="M3 21h3a2 2 0 0 0 2-2v-3"/></svg>
             </div>
             <div class="cf-merge-label">Day 15 Joint Report</div>
           </div>
