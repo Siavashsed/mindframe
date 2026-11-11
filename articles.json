@@ -1,64 +1,148 @@
 [
   {
-    "title": "Esketamine's FDA Approval in 2019 Changed How We Think About Treatment-Resistant Depression",
-    "slug": "esketamine-fda-approval-2019-depression",
-    "meta_description": "The 2019 FDA approval of esketamine (Spravato) reshaped depression treatment. Here's what it meant for neurobiology and clinical psychiatry.",
-    "date": "August 16, 2019",
-    "date_iso": "2019-08-16",
+    "title": "When Saturday Isn't Overtime: The Psychology of a Founder Who Stayed Private for Five Years",
+    "slug": "psychology-of-a-private-founder-weekends-as-lifestyle",
+    "meta_description": "Intrinsic motivation, flow and the audience effect, applied to a Toronto founder who built for five years in private and calls weekend work a lifestyle.",
+    "date": "November 10, 2026",
+    "date_iso": "2026-11-10",
+    "author": "Hannah Ekholm",
+    "image": "https://images.pexels.com/photos/33350398/pexels-photo-33350398.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image_alt": "A coffee cup and an open notebook by a window on a calm morning.",
+    "photographer": "Bedia",
+    "category": "Psychology & Neurobiology",
+    "posted_iso": "2026-11-10T22:52:21",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "What Anesthesia Gets Wrong About Turning Off the Mind",
+    "slug": "anesthesia-sleep-boundaries-of-consciousness",
+    "meta_description": "Anesthesia and sleep don't switch consciousness off like a lamp. Here's what the brain-complexity research actually shows, and where it still fails.",
+    "date": "July 20, 2026",
+    "date_iso": "2026-07-20",
     "author": "Shahnoush Nasiri",
-    "image": "https://images.pexels.com/photos/5723880/pexels-photo-5723880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image": "https://images.pexels.com/photos/6129691/pexels-photo-6129691.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
-      "nejm.org",
-      "nimh.nih.gov",
       "science.org",
-      "fda.gov",
-      "psychiatrist.com"
-    ],
-    "historical": true,
-    "available_languages": [
-      "en"
-    ],
-    "category": "Sleep"
-  },
-  {
-    "title": "The FDA Cleared a Psychedelic Therapy Device in 2023 and the Field Still Hasn't Caught Up",
-    "slug": "fda-psilocybin-breakthrough-therapy-2023",
-    "meta_description": "The FDA's 2023 Breakthrough Therapy designation for psilocybin changed neurobiology research forever. Here's what it really meant for the field.",
-    "date": "July 31, 2023",
-    "date_iso": "2023-07-31",
-    "author": "Shahnoush Nasiri",
-    "image": "https://images.pexels.com/photos/8326312/pexels-photo-8326312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "nejm.org",
       "nature.com",
-      "who.int",
-      "clinicaltrials.gov"
+      "nationalauditprojects.org.uk",
+      "cell.com",
+      "bjanaesthesia.org"
     ],
-    "historical": true,
+    "posted_iso": "2026-07-20",
     "available_languages": [
       "en"
-    ],
-    "category": "Emotion"
+    ]
   },
   {
-    "title": "GPT-3 and the Brain: What the 2020 AI Language Explosion Actually Meant for Psychology",
-    "slug": "gpt3-2020-psychology-neuroscience-impact",
-    "meta_description": "GPT-3 launched in 2020 and rattled psychologists and neuroscientists. Here's what it actually meant for the field - and what people got badly wrong.",
-    "date": "August 08, 2020",
-    "date_iso": "2020-08-08",
+    "title": "The Dopamine Behind Musical Chills, and Why Focus Playlists Lie",
+    "slug": "music-brain-chemistry-chills-focus",
+    "meta_description": "How music changes brain chemistry, from the dopamine of chills to the messy truth about focus playlists, explained with real studies.",
+    "date": "July 16, 2026",
+    "date_iso": "2026-07-16",
     "author": "Shahnoush Nasiri",
-    "image": "https://images.pexels.com/photos/30895543/pexels-photo-30895543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image": "https://images.pexels.com/photos/5708720/pexels-photo-5708720.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
-      "arxiv.org",
-      "who.int",
-      "ncbi.nlm.nih.gov",
-      "fda.gov"
+      "nature.com",
+      "nih.gov",
+      "tandfonline.com",
+      "onlinelibrary.wiley.com"
     ],
-    "historical": true,
+    "posted_iso": "2026-07-16",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Why One Old Song Hijacks Your Whole Body in Three Seconds",
+    "slug": "neuroscience-of-nostalgia-explained",
+    "meta_description": "The neuroscience of nostalgia, why remembering the past feels so physical, and what your brain is actually doing when a memory floods back.",
+    "date": "July 15, 2026",
+    "date_iso": "2026-07-15",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/29683401/pexels-photo-29683401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "eneuro.org",
+      "apa.org",
+      "southampton.ac.uk"
+    ],
+    "posted_iso": "2026-07-15",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Why Mirror Neurons Explain Less About Empathy Than You Think",
+    "slug": "mirror-neurons-biology-empathy",
+    "meta_description": "Mirror neurons got sold as the biology of empathy. The real research is messier, more interesting, and more honest about what your brain actually does.",
+    "date": "July 13, 2026",
+    "date_iso": "2026-07-13",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/8554633/pexels-photo-8554633.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "annualreviews.org",
+      "cell.com",
+      "pubmed.ncbi.nlm.nih.gov"
+    ],
+    "posted_iso": "2026-07-13",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Your Body Is Sending Signals to Your Brain All Day. Are You Reading Them?",
+    "slug": "interoception-body-signals-shape-thoughts",
+    "meta_description": "Interoception shapes your thoughts, moods, and decisions more than you think. Here's what the science actually says, and why it matters for mental health.",
+    "date": "July 01, 2026",
+    "date_iso": "2026-07-01",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/8471908/pexels-photo-8471908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nature.com",
+      "royalsocietypublishing.org"
+    ],
+    "posted_iso": "2026-07-01",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Chronic Stress Is Physically Shrinking Your Prefrontal Cortex - Here's What That Actually Means",
+    "slug": "chronic-stress-prefrontal-cortex-changes",
+    "meta_description": "Chronic stress reshapes the prefrontal cortex in measurable ways. A neuroscientist explains what's really happening and what you can do about it.",
+    "date": "June 07, 2026",
+    "date_iso": "2026-06-07",
+    "author": "Dr. Maya Holloway",
+    "image": "https://images.pexels.com/photos/6615105/pexels-photo-6615105.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "pnas.org",
+      "ncbi.nlm.nih.gov",
+      "sleepfoundation.org"
+    ],
+    "posted_iso": "2026-06-07",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Cognitive Biases Worth Knowing: The Ones That Actually Shape Your Decisions",
+    "slug": "cognitive-biases-worth-knowing",
+    "meta_description": "These cognitive biases silently distort your thinking every day. A psychologist breaks down which ones matter most and how to catch them in action.",
+    "date": "May 31, 2026",
+    "date_iso": "2026-05-31",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/15701400/pexels-photo-15701400.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "science.org",
+      "journals.sagepub.com",
+      "pewresearch.org"
+    ],
+    "posted_iso": "2026-05-31",
     "available_languages": [
       "en"
     ],
-    "category": "Emotion"
+    "category": "Cognition"
   },
   {
     "title": "Dopamine Doesn't Reward You. It Drives You. Here's Why That Matters.",
@@ -81,43 +165,43 @@
     "category": "Habits"
   },
   {
-    "title": "The Pandemic Brain: How 2020's Mental Health Crisis Forced Psychology to Reckon With Itself",
-    "slug": "2020-pandemic-mental-health-psychology",
-    "meta_description": "The 2020 mental health crisis wasn't just a surge in cases. It exposed deep structural failures in how psychology understood and treated collective trauma.",
-    "date": "March 25, 2020",
-    "date_iso": "2020-03-25",
+    "title": "Neuralink Put a Chip in a Human. Then the Threads Came Loose.",
+    "slug": "neuralink-2024-first-human-implant",
+    "meta_description": "In 2024 Neuralink's first human implant worked, then partly failed. What the retracted threads revealed about brain-computer interfaces and hype.",
+    "date": "January 11, 2024",
+    "date_iso": "2024-01-11",
     "author": "Shahnoush Nasiri",
-    "image": "https://images.pexels.com/photos/8407043/pexels-photo-8407043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image": "",
     "outbound_links": [
-      "cdc.gov",
-      "ncbi.nlm.nih.gov",
-      "samhsa.gov"
+      "nature.com",
+      "spectrum.ieee.org",
+      "neuralink.com"
     ],
-    "posted_iso": "2026-05-29",
+    "posted_iso": "2026-07-20",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The FDA Cleared a Psychedelic Therapy Device in 2023 and the Field Still Hasn't Caught Up",
+    "slug": "fda-psilocybin-breakthrough-therapy-2023",
+    "meta_description": "The FDA's 2023 Breakthrough Therapy designation for psilocybin changed neurobiology research forever. Here's what it really meant for the field.",
+    "date": "July 31, 2023",
+    "date_iso": "2023-07-31",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/8326312/pexels-photo-8326312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nejm.org",
+      "nature.com",
+      "who.int",
+      "clinicaltrials.gov"
+    ],
     "historical": true,
     "available_languages": [
       "en"
     ],
     "category": "Emotion"
-  },
-  {
-    "title": "Cognitive Biases Worth Knowing: The Ones That Actually Shape Your Decisions",
-    "slug": "cognitive-biases-worth-knowing",
-    "meta_description": "These cognitive biases silently distort your thinking every day. A psychologist breaks down which ones matter most and how to catch them in action.",
-    "date": "May 31, 2026",
-    "date_iso": "2026-05-31",
-    "author": "Shahnoush Nasiri",
-    "image": "https://images.pexels.com/photos/15701400/pexels-photo-15701400.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "science.org",
-      "journals.sagepub.com",
-      "pewresearch.org"
-    ],
-    "posted_iso": "2026-05-31",
-    "available_languages": [
-      "en"
-    ],
-    "category": "Cognition"
   },
   {
     "title": "The FDA's Accelerated Approval of Esketamine for Suicidal Depression Changed What Psychiatry Thought Was Possible in 2023",
@@ -140,19 +224,40 @@
     "category": "Emotion"
   },
   {
-    "title": "Chronic Stress Is Physically Shrinking Your Prefrontal Cortex - Here's What That Actually Means",
-    "slug": "chronic-stress-prefrontal-cortex-changes",
-    "meta_description": "Chronic stress reshapes the prefrontal cortex in measurable ways. A neuroscientist explains what's really happening and what you can do about it.",
-    "date": "June 07, 2026",
-    "date_iso": "2026-06-07",
-    "author": "Dr. Maya Holloway",
-    "image": "https://images.pexels.com/photos/6615105/pexels-photo-6615105.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "title": "The DSM-5-TR Dropped in 2022 and Psychologists Are Still Arguing About It",
+    "slug": "dsm-5-tr-2022-psychology-changes",
+    "meta_description": "The DSM-5-TR arrived in March 2022 with new diagnoses and revised criteria. Here's what actually changed, what didn't, and why it matters for psychology.",
+    "date": "December 24, 2022",
+    "date_iso": "2022-12-24",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/8899543/pexels-photo-8899543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
-      "pnas.org",
-      "ncbi.nlm.nih.gov",
-      "sleepfoundation.org"
+      "psychiatry.org",
+      "nejm.org",
+      "nimh.nih.gov",
+      "who.int"
     ],
-    "posted_iso": "2026-06-07",
+    "posted_iso": "2026-07-01",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "One Neuroscientist, Doctored Blots, and Alzheimer's 16-Year Detour",
+    "slug": "amyloid-fraud-2022-alzheimers-science",
+    "meta_description": "A 2022 Science investigation flagged possible image fraud in a landmark amyloid study. Here is what it means for Alzheimer's research and the amyloid theory.",
+    "date": "May 24, 2022",
+    "date_iso": "2022-05-24",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/7088524/pexels-photo-7088524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "science.org",
+      "alz.org",
+      "who.int"
+    ],
+    "posted_iso": "2026-07-15",
+    "historical": true,
     "available_languages": [
       "en"
     ]
@@ -197,133 +302,44 @@
     ]
   },
   {
-    "title": "Your Body Is Sending Signals to Your Brain All Day. Are You Reading Them?",
-    "slug": "interoception-body-signals-shape-thoughts",
-    "meta_description": "Interoception shapes your thoughts, moods, and decisions more than you think. Here's what the science actually says, and why it matters for mental health.",
-    "date": "July 01, 2026",
-    "date_iso": "2026-07-01",
+    "title": "GPT-3 and the Brain: What the 2020 AI Language Explosion Actually Meant for Psychology",
+    "slug": "gpt3-2020-psychology-neuroscience-impact",
+    "meta_description": "GPT-3 launched in 2020 and rattled psychologists and neuroscientists. Here's what it actually meant for the field - and what people got badly wrong.",
+    "date": "August 08, 2020",
+    "date_iso": "2020-08-08",
     "author": "Shahnoush Nasiri",
-    "image": "https://images.pexels.com/photos/8471908/pexels-photo-8471908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image": "https://images.pexels.com/photos/30895543/pexels-photo-30895543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
-      "nature.com",
-      "royalsocietypublishing.org"
-    ],
-    "posted_iso": "2026-07-01",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "The DSM-5-TR Dropped in 2022 and Psychologists Are Still Arguing About It",
-    "slug": "dsm-5-tr-2022-psychology-changes",
-    "meta_description": "The DSM-5-TR arrived in March 2022 with new diagnoses and revised criteria. Here's what actually changed, what didn't, and why it matters for psychology.",
-    "date": "December 24, 2022",
-    "date_iso": "2022-12-24",
-    "author": "Shahnoush Nasiri",
-    "image": "https://images.pexels.com/photos/8899543/pexels-photo-8899543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "psychiatry.org",
-      "nejm.org",
-      "nimh.nih.gov",
-      "who.int"
-    ],
-    "posted_iso": "2026-07-01",
-    "historical": true,
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "Why Mirror Neurons Explain Less About Empathy Than You Think",
-    "slug": "mirror-neurons-biology-empathy",
-    "meta_description": "Mirror neurons got sold as the biology of empathy. The real research is messier, more interesting, and more honest about what your brain actually does.",
-    "date": "July 13, 2026",
-    "date_iso": "2026-07-13",
-    "author": "Shahnoush Nasiri",
-    "image": "https://images.pexels.com/photos/8554633/pexels-photo-8554633.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "annualreviews.org",
-      "cell.com",
-      "pubmed.ncbi.nlm.nih.gov"
-    ],
-    "posted_iso": "2026-07-13",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "The WHO Just Redefined Burnout, and Half the Internet Got It Wrong",
-    "slug": "who-burnout-icd11-2019",
-    "meta_description": "In May 2019 the WHO added burnout to the ICD-11 as an occupational phenomenon. Here is what that actually means, and the big thing most reports got backward.",
-    "date": "October 16, 2019",
-    "date_iso": "2019-10-16",
-    "author": "Shahnoush Nasiri",
-    "image": "https://images.pexels.com/photos/3760811/pexels-photo-3760811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
+      "arxiv.org",
       "who.int",
-      "gallup.com"
+      "ncbi.nlm.nih.gov",
+      "fda.gov"
     ],
-    "posted_iso": "2026-07-13",
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Emotion"
   },
   {
-    "title": "Why One Old Song Hijacks Your Whole Body in Three Seconds",
-    "slug": "neuroscience-of-nostalgia-explained",
-    "meta_description": "The neuroscience of nostalgia, why remembering the past feels so physical, and what your brain is actually doing when a memory floods back.",
-    "date": "July 15, 2026",
-    "date_iso": "2026-07-15",
+    "title": "The Pandemic Brain: How 2020's Mental Health Crisis Forced Psychology to Reckon With Itself",
+    "slug": "2020-pandemic-mental-health-psychology",
+    "meta_description": "The 2020 mental health crisis wasn't just a surge in cases. It exposed deep structural failures in how psychology understood and treated collective trauma.",
+    "date": "March 25, 2020",
+    "date_iso": "2020-03-25",
     "author": "Shahnoush Nasiri",
-    "image": "https://images.pexels.com/photos/29683401/pexels-photo-29683401.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image": "https://images.pexels.com/photos/8407043/pexels-photo-8407043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
-      "eneuro.org",
-      "apa.org",
-      "southampton.ac.uk"
+      "cdc.gov",
+      "ncbi.nlm.nih.gov",
+      "samhsa.gov"
     ],
-    "posted_iso": "2026-07-15",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "One Neuroscientist, Doctored Blots, and Alzheimer's 16-Year Detour",
-    "slug": "amyloid-fraud-2022-alzheimers-science",
-    "meta_description": "A 2022 Science investigation flagged possible image fraud in a landmark amyloid study. Here is what it means for Alzheimer's research and the amyloid theory.",
-    "date": "May 24, 2022",
-    "date_iso": "2022-05-24",
-    "author": "Shahnoush Nasiri",
-    "image": "https://images.pexels.com/photos/7088524/pexels-photo-7088524.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "science.org",
-      "alz.org",
-      "who.int"
-    ],
-    "posted_iso": "2026-07-15",
+    "posted_iso": "2026-05-29",
     "historical": true,
     "available_languages": [
       "en"
-    ]
-  },
-  {
-    "title": "The Dopamine Behind Musical Chills, and Why Focus Playlists Lie",
-    "slug": "music-brain-chemistry-chills-focus",
-    "meta_description": "How music changes brain chemistry, from the dopamine of chills to the messy truth about focus playlists, explained with real studies.",
-    "date": "July 16, 2026",
-    "date_iso": "2026-07-16",
-    "author": "Shahnoush Nasiri",
-    "image": "https://images.pexels.com/photos/5708720/pexels-photo-5708720.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "nature.com",
-      "nih.gov",
-      "tandfonline.com",
-      "onlinelibrary.wiley.com"
     ],
-    "posted_iso": "2026-07-16",
-    "available_languages": [
-      "en"
-    ]
+    "category": "Emotion"
   },
   {
     "title": "The FDA Just Cleared a Video Game to Treat ADHD",
@@ -347,42 +363,42 @@
     ]
   },
   {
-    "title": "What Anesthesia Gets Wrong About Turning Off the Mind",
-    "slug": "anesthesia-sleep-boundaries-of-consciousness",
-    "meta_description": "Anesthesia and sleep don't switch consciousness off like a lamp. Here's what the brain-complexity research actually shows, and where it still fails.",
-    "date": "July 20, 2026",
-    "date_iso": "2026-07-20",
+    "title": "The WHO Just Redefined Burnout, and Half the Internet Got It Wrong",
+    "slug": "who-burnout-icd11-2019",
+    "meta_description": "In May 2019 the WHO added burnout to the ICD-11 as an occupational phenomenon. Here is what that actually means, and the big thing most reports got backward.",
+    "date": "October 16, 2019",
+    "date_iso": "2019-10-16",
     "author": "Shahnoush Nasiri",
-    "image": "https://images.pexels.com/photos/6129691/pexels-photo-6129691.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image": "https://images.pexels.com/photos/3760811/pexels-photo-3760811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
-      "science.org",
-      "nature.com",
-      "nationalauditprojects.org.uk",
-      "cell.com",
-      "bjanaesthesia.org"
+      "who.int",
+      "gallup.com"
     ],
-    "posted_iso": "2026-07-20",
+    "posted_iso": "2026-07-13",
+    "historical": true,
     "available_languages": [
       "en"
     ]
   },
   {
-    "title": "Neuralink Put a Chip in a Human. Then the Threads Came Loose.",
-    "slug": "neuralink-2024-first-human-implant",
-    "meta_description": "In 2024 Neuralink's first human implant worked, then partly failed. What the retracted threads revealed about brain-computer interfaces and hype.",
-    "date": "January 11, 2024",
-    "date_iso": "2024-01-11",
+    "title": "Esketamine's FDA Approval in 2019 Changed How We Think About Treatment-Resistant Depression",
+    "slug": "esketamine-fda-approval-2019-depression",
+    "meta_description": "The 2019 FDA approval of esketamine (Spravato) reshaped depression treatment. Here's what it meant for neurobiology and clinical psychiatry.",
+    "date": "August 16, 2019",
+    "date_iso": "2019-08-16",
     "author": "Shahnoush Nasiri",
-    "image": "",
+    "image": "https://images.pexels.com/photos/5723880/pexels-photo-5723880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
-      "nature.com",
-      "spectrum.ieee.org",
-      "neuralink.com"
+      "nejm.org",
+      "nimh.nih.gov",
+      "science.org",
+      "fda.gov",
+      "psychiatrist.com"
     ],
-    "posted_iso": "2026-07-20",
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Sleep"
   }
 ]
