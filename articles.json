@@ -400,5 +400,45 @@
       "en"
     ],
     "category": "Sleep"
+  },
+  {
+    "title": "Heard It Twice, Believed It Once: Your Brain's Familiarity Trap",
+    "slug": "brain-confuses-familiarity-with-truth",
+    "meta_description": "Why your brain confuses familiarity with truth: repetition makes claims feel easy, and ease feels like accuracy. What the research shows and how to push back.",
+    "date": "November 15, 2026",
+    "date_iso": "2026-11-15",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/5357345/pexels-photo-5357345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "doi.org",
+      "climatechangecommunication.org"
+    ],
+    "posted_iso": "2026-11-15",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The FDA Said No to MDMA Therapy, and the Panel Was Right",
+    "slug": "fda-rejects-mdma-therapy-ptsd-2024",
+    "meta_description": "In August 2024 the FDA rejected MDMA-assisted therapy for PTSD. A psychology student explains why the call was right and what it means for psychedelic science.",
+    "date": "January 22, 2024",
+    "date_iso": "2024-01-22",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/5699476/pexels-photo-5699476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "fda.gov",
+      "nature.com",
+      "retractionwatch.com",
+      "reuters.com",
+      "icer.org",
+      "ptsd.va.gov",
+      "nimh.nih.gov"
+    ],
+    "posted_iso": "2026-11-15",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
