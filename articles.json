@@ -440,5 +440,46 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "The Rats That Stopped Working: What Dopamine Really Does to Your Goals",
+    "slug": "dopamine-prices-effort-goal-behavior",
+    "meta_description": "Dopamine shapes goal-directed behavior by pricing effort, not by delivering pleasure. What the rat studies and human PET scans show, and what to do with it.",
+    "date": "November 16, 2026",
+    "date_iso": "2026-11-16",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/5306409/pexels-photo-5306409.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "science.org",
+      "doi.org",
+      "jneurosci.org",
+      "nature.com"
+    ],
+    "posted_iso": "2026-11-16",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Nine Votes Against MDMA Therapy, and Why the FDA Panel Got It Right",
+    "slug": "fda-panel-rejects-mdma-therapy-2024",
+    "meta_description": "In June 2024 an FDA panel voted 9-2 against MDMA therapy for PTSD. What the data showed, what it missed, and why the setback may help the field.",
+    "date": "March 05, 2024",
+    "date_iso": "2024-03-05",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/7699471/pexels-photo-7699471.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nature.com",
+      "icer.org",
+      "fda.gov",
+      "link.springer.com",
+      "ptsd.va.gov",
+      "canada.ca"
+    ],
+    "posted_iso": "2026-11-16",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
