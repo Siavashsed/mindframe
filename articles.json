@@ -481,5 +481,49 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Brain Lies Most When You Feel Least Biased",
+    "slug": "cognitive-biases-that-fool-smart-people",
+    "meta_description": "The cognitive biases worth knowing are the few that bend your weekly decisions. A York psych student on which ones matter and what reduces them.",
+    "date": "November 17, 2026",
+    "date_iso": "2026-11-17",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/18795395/pexels-photo-18795395.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "science.org",
+      "econtent.hogrefe.com",
+      "journals.sagepub.com",
+      "pubsonline.informs.org",
+      "psycnet.apa.org",
+      "doi.org"
+    ],
+    "posted_iso": "2026-11-17",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Cobenfy Just Broke Psychiatry's 70-Year Dopamine Habit",
+    "slug": "cobenfy-schizophrenia-fda-approval-2024",
+    "meta_description": "The FDA approved Cobenfy for schizophrenia in September 2024, the first antipsychotic in decades that skips D2 blockade. Here's what it means.",
+    "date": "February 12, 2024",
+    "date_iso": "2024-02-12",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/3850731/pexels-photo-3850731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "fda.gov",
+      "nejm.org",
+      "doi.org",
+      "news.bms.com",
+      "reuters.com",
+      "news.abbvie.com",
+      "who.int"
+    ],
+    "posted_iso": "2026-11-17",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
