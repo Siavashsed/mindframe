@@ -525,5 +525,48 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Stress Doesn't Kill Your Prefrontal Cortex. It Prunes It.",
+    "slug": "chronic-stress-prunes-prefrontal-cortex",
+    "meta_description": "Chronic stress reshapes the prefrontal cortex by pruning neuron branches, not killing cells. What the studies show, and why recovery is real.",
+    "date": "November 18, 2026",
+    "date_iso": "2026-11-18",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/32662455/pexels-photo-32662455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nature.com",
+      "pnas.org",
+      "biologicalpsychiatryjournal.com",
+      "science.org",
+      "jneurosci.org"
+    ],
+    "posted_iso": "2026-11-18",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Cobenfy Broke Psychiatry's 70-Year Dopamine Habit, and That Matters More Than the Pill",
+    "slug": "cobenfy-schizophrenia-fda-approval-2024-2",
+    "meta_description": "In September 2024 the FDA approved Cobenfy, the first schizophrenia drug in 70 years that skips dopamine. What the trials show, and what they don't.",
+    "date": "July 14, 2024",
+    "date_iso": "2024-07-14",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/3735769/pexels-photo-3735769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "fda.gov",
+      "who.int",
+      "nejm.org",
+      "thelancet.com",
+      "jamanetwork.com",
+      "news.bms.com",
+      "reuters.com"
+    ],
+    "posted_iso": "2026-11-18",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
