@@ -568,5 +568,45 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Adult Brain Still Rewires Itself. Brain Games Won't Do It.",
+    "slug": "neuroplasticity-adult-brain-limits",
+    "meta_description": "Neuroplasticity is real in adults, but it's narrow and it fades if you stop. What the studies show it can do, and what it can't do.",
+    "date": "November 19, 2026",
+    "date_iso": "2026-11-19",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/8190039/pexels-photo-8190039.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "pnas.org",
+      "nature.com",
+      "ftc.gov",
+      "journals.sagepub.com",
+      "doi.org"
+    ],
+    "posted_iso": "2026-11-19",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Aduhelm Got Approved Over a 10-0 Panel Vote. That Should Worry You.",
+    "slug": "aduhelm-fda-approval-2021-alzheimers",
+    "meta_description": "The FDA approved Biogen's Alzheimer's drug Aduhelm in 2021 despite its expert panel voting against it. What the data showed, and why it mattered.",
+    "date": "July 27, 2021",
+    "date_iso": "2021-07-27",
+    "author": "Shahnoush Nasiri",
+    "image": "",
+    "outbound_links": [
+      "fda.gov",
+      "alz.org",
+      "cms.gov",
+      "doi.org"
+    ],
+    "posted_iso": "2026-11-19",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
