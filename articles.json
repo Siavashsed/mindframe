@@ -608,5 +608,42 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Adult Brain Still Rewires, Just Not the Way Apps Promise",
+    "slug": "adult-neuroplasticity-what-research-shows",
+    "meta_description": "Neuroplasticity in adulthood is real, but the research is narrower than the hype. Here's what juggling, taxi drivers and exercise studies actually show.",
+    "date": "November 20, 2026",
+    "date_iso": "2026-11-20",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/13010412/pexels-photo-13010412.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nature.com",
+      "pnas.org"
+    ],
+    "posted_iso": "2026-11-20",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Neuralink's Pig Demo Showed Us a Pig, Not a Cure",
+    "slug": "neuralink-pig-demo-2020-brain-interface",
+    "meta_description": "Neuralink's August 2020 pig demo drew huge hype. Here's what the brain-computer interface announcement actually showed, and what it left out.",
+    "date": "November 06, 2020",
+    "date_iso": "2020-11-06",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/4226219/pexels-photo-4226219.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "jmir.org",
+      "neuralink.com",
+      "nature.com",
+      "elifesciences.org"
+    ],
+    "posted_iso": "2026-11-20",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
