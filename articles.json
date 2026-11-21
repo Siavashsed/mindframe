@@ -645,5 +645,43 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Flow Isn't Magic, It's Your Prefrontal Cortex Clocking Out",
+    "slug": "flow-state-brain-prefrontal-cortex",
+    "meta_description": "Flow states happen when challenge matches skill and parts of your prefrontal cortex quiet down. Here's what the brain research shows, and what it doesn't.",
+    "date": "November 21, 2026",
+    "date_iso": "2026-11-21",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/933255/pexels-photo-933255.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "doi.org",
+      "harpercollins.com"
+    ],
+    "posted_iso": "2026-11-21",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Leqembi Won Full FDA Approval and Slowed Alzheimer's by Just 0.45 Points",
+    "slug": "lecanemab-fda-approval-alzheimers-2023",
+    "meta_description": "The FDA gave lecanemab full approval in July 2023. Here's what the Alzheimer's trial showed, what it cost, and why scientists are still arguing.",
+    "date": "December 12, 2023",
+    "date_iso": "2023-12-12",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/39192386/pexels-photo-39192386.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nejm.org",
+      "fda.gov",
+      "alz.org",
+      "eisai.com",
+      "cms.gov"
+    ],
+    "posted_iso": "2026-11-21",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
