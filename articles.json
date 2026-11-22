@@ -683,5 +683,43 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Loneliness Is a Brain Health Risk, and Busy Calendars Won't Fix It",
+    "slug": "loneliness-brain-health-science",
+    "meta_description": "The science of loneliness and brain health: what the studies show on dementia and stress, where the evidence is shaky, and what actually helps.",
+    "date": "November 22, 2026",
+    "date_iso": "2026-11-22",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/7188512/pexels-photo-7188512.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "journals.sagepub.com",
+      "hhs.gov",
+      "thelancet.com"
+    ],
+    "posted_iso": "2026-11-22",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The FDA Turned Down MDMA Therapy in 2024, and Got It Mostly Right",
+    "slug": "fda-rejects-mdma-therapy-2024",
+    "meta_description": "In June 2024 an FDA panel voted against MDMA-assisted therapy for PTSD. Here's what happened, why the data fell short, and what it meant for psychedelic research.",
+    "date": "January 04, 2024",
+    "date_iso": "2024-01-04",
+    "author": "Shahnoush Nasiri",
+    "image": "",
+    "outbound_links": [
+      "nature.com",
+      "reuters.com",
+      "fda.gov",
+      "retractionwatch.com"
+    ],
+    "posted_iso": "2026-11-22",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
