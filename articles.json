@@ -721,5 +721,41 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Working Memory Holds Four Things. Multitasking Needs More.",
+    "slug": "working-memory-limits-multitasking-myth",
+    "meta_description": "Working memory holds about four chunks at a time, so true multitasking fails. Here's what the research shows and the single-tasking habits that work.",
+    "date": "November 23, 2026",
+    "date_iso": "2026-11-23",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/6958567/pexels-photo-6958567.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "doi.org",
+      "pnas.org"
+    ],
+    "posted_iso": "2026-11-23",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Forty Percent of Dementia May Be Preventable, the Lancet Says",
+    "slug": "lancet-2020-dementia-prevention-risk-factors",
+    "meta_description": "The 2020 Lancet Commission named 12 risk factors behind about 40% of dementia cases. Here's what it got right, what it can't prove, and what to do.",
+    "date": "June 14, 2020",
+    "date_iso": "2020-06-14",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/5790820/pexels-photo-5790820.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "thelancet.com",
+      "who.int",
+      "alz.org"
+    ],
+    "posted_iso": "2026-11-23",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
