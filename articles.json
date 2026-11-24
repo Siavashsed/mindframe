@@ -757,5 +757,42 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Decision Fatigue Is Real, But Willpower Isn't a Battery",
+    "slug": "decision-fatigue-willpower-not-a-battery",
+    "meta_description": "Decision fatigue is real, but the willpower-as-battery idea is shaky. Here's what the research shows and how to protect your choices.",
+    "date": "November 24, 2026",
+    "date_iso": "2026-11-24",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/5175734/pexels-photo-5175734.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "doi.org",
+      "pnas.org",
+      "journals.sagepub.com"
+    ],
+    "posted_iso": "2026-11-24",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Esketamine Won FDA Approval in 2019 and Psychiatry Split Over It",
+    "slug": "esketamine-fda-approval-2019-depression-2",
+    "meta_description": "The FDA approved esketamine nasal spray for treatment-resistant depression in March 2019. Here's what the trials show and why psychiatry is divided.",
+    "date": "February 06, 2019",
+    "date_iso": "2019-02-06",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/6011611/pexels-photo-6011611.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "fda.gov",
+      "ajp.psychiatryonline.org",
+      "reuters.com"
+    ],
+    "posted_iso": "2026-11-24",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
