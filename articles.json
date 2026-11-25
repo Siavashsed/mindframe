@@ -794,5 +794,42 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "You Believe It Because You've Heard It Before, Not Because It's True",
+    "slug": "brain-confuses-familiarity-with-truth-effect",
+    "meta_description": "Why your brain confuses familiarity with truth: the illusory truth effect, what the studies show, and one habit that weakens it.",
+    "date": "November 25, 2026",
+    "date_iso": "2026-11-25",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/1850598/pexels-photo-1850598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "doi.org"
+    ],
+    "posted_iso": "2026-11-25",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Spravato Got FDA Approval in 2019, and Depression Treatment Changed",
+    "slug": "esketamine-fda-approval-2019-depression-3",
+    "meta_description": "The FDA approved esketamine nasal spray in March 2019. Here's what the trials showed, what the critics said, and what it meant for depression care.",
+    "date": "September 14, 2019",
+    "date_iso": "2019-09-14",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/39192355/pexels-photo-39192355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "fda.gov",
+      "nimh.nih.gov",
+      "psychiatryonline.org",
+      "jamanetwork.com",
+      "pubmed.ncbi.nlm.nih.gov"
+    ],
+    "posted_iso": "2026-11-25",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
