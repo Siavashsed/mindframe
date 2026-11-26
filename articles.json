@@ -831,5 +831,42 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Dopamine Doesn't Pay You for Goals. It Decides Whether You Chase Them",
+    "slug": "dopamine-shapes-goal-directed-behavior",
+    "meta_description": "How dopamine shapes goal-directed behavior: it drives pursuit, not pleasure. What the research shows, where it's debated, and one trick to try today.",
+    "date": "November 26, 2026",
+    "date_iso": "2026-11-26",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/5756564/pexels-photo-5756564.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "science.org",
+      "nature.com",
+      "pubmed.ncbi.nlm.nih.gov"
+    ],
+    "posted_iso": "2026-11-26",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The FDA Panel That Said No to an Alzheimer's Drug in 2020",
+    "slug": "fda-panel-aducanumab-alzheimers-2020",
+    "meta_description": "In November 2020 an FDA panel rejected aducanumab, the first drug to target amyloid head-on. Here's what the vote said about Alzheimer's science.",
+    "date": "December 22, 2020",
+    "date_iso": "2020-12-22",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/10874544/pexels-photo-10874544.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "alz.org",
+      "science.org",
+      "nature.com"
+    ],
+    "posted_iso": "2026-11-26",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
