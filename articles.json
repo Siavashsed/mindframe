@@ -868,5 +868,42 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Four Cognitive Biases Worth Knowing, and One Famous One to Doubt",
+    "slug": "cognitive-biases-worth-knowing-anchoring-defaults",
+    "meta_description": "Anchoring, confirmation bias, defaults and the bias blind spot shape your choices daily. Here's what the research shows and what to do about it.",
+    "date": "November 27, 2026",
+    "date_iso": "2026-11-27",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/3858017/pexels-photo-3858017.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "science.org",
+      "doi.org"
+    ],
+    "posted_iso": "2026-11-27",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The FDA Approved Aduhelm Over Its Own Experts, and Neuroscience Felt It",
+    "slug": "fda-aduhelm-approval-alzheimers-2021",
+    "meta_description": "In June 2021 the FDA approved Alzheimer's drug Aduhelm against its advisers' vote. Here's what the aducanumab fight meant for brain science.",
+    "date": "January 12, 2021",
+    "date_iso": "2021-01-12",
+    "author": "Shahnoush Nasiri",
+    "image": "https://images.pexels.com/photos/7088495/pexels-photo-7088495.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "fda.gov",
+      "biogen.com",
+      "alz.org",
+      "kff.org"
+    ],
+    "posted_iso": "2026-11-27",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
